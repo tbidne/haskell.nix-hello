@@ -1,0 +1,15 @@
+cabal-version: 2.4
+name:          hello
+version:       0.1
+license:       MIT
+license-file:  LICENSE
+build-type:    Simple
+
+source-repository head
+  type:     darcs
+  location: http://github.com/tbidne/hello/
+
+executable hello
+  hs-source-dirs: app
+  main-is:        hello.hs
+  build-depends:  base >=4.2 && <5
